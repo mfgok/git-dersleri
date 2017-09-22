@@ -53,6 +53,8 @@ versiyon değiştirme
 Github reposu ekleme 
 	> git remote add <githubRepo(Herhangi bir şey yazılabilir)> https://github.com/mfgok/git-dersleri.git
 	
+Git projesindeki tüm dosyaları github'a göndermek
+	< git push -u  githubRepo(uzaktaki reponun adres kısayolu> master
 
 	
 
