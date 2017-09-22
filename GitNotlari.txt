@@ -1,0 +1,80 @@
+GIT Notları
+
+Git'e User name Ekleme
+	> git config --global user.name "Mehmet Fatih Gök"
+Git'e mail adresi ekleme
+	> git config --global user.email "gokmeh@itu.edu.tr"
+
+Git Bash'te proje klasörüne gel.
+	> cd Proje
+Projeyi Gite Entegre etme
+	> git init
+
+Proje klasöründeki tüm dosyaları Git'e dahil etme 
+(Add komutu ile yerel depodaki dosya staging area denen geçiş bölgesine götürülüyor)
+(Geçiş bölgesi yaptığımız değişklikleri tekrardan görmemizi sağlayan alan)
+	> git add .
+	
+Proje klasöründeki tek bir dosyayı Git'e dahil etme	
+	> git add <dosya adi>
+	
+Projede Yapılan Değişiklikleri Git'e ekleme
+(Commit İşlemi ile dosya git deposuna gönderiliyor)
+	> git commit -m "ilk commit"
+
+Yapılan Commitleri listeleme
+	> git log
+	
+O anki Değişiklikleri Görme
+	> git status
+
+Yapılan değişiklikleri görmek için
+	> git diff
+	
+Tek dosyada yapılan değişikleri Görmek İçin
+	> git diff <dosyaadı>
+
+git add . komutu ile yapılan değişiklikler staging area'ya gönderilince staging area ile git deposu arasındaki farkı görmek için;
+	git diff --staged
+	
+dosya silme
+	> git rm <dosyaadı>
+	> git commit -m "Dosyayı sildik"
+
+dosyada yapılan geçiş bölgesine gönderilmemiş değişikliği geri alma (dosya silme veya edit geri alma)
+	> git checkout -- <dosyaadı>
+
+geçiş bölgesine gönderilmiş değişikliği resetleme
+	> git reset HEAD <dosyaadı>
+
+versiyon değiştirme
+	> git checkout <commitID> -- .
+	
+Github reposu ekleme 
+	> git remote add <githubRepo(Herhangi bir şey yazılabilir)> https://github.com/mfgok/git-dersleri.git
+	
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
