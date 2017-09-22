@@ -56,6 +56,23 @@ Github reposu ekleme
 Git projesindeki tüm dosyaları github'a göndermek
 	< git push -u  githubRepo(uzaktaki reponun adres kısayolu> master
 
+Proje klasöründe .gitignore adında bir dosya oluşturuyoruz.
+Bu dosyada proje içinde olupta gite dahil etmek istemediğimiz dosyaların adını alt alta yazıyoruz.
+
+Github'ta yapılan değişkilikleri yerel gite çekmek için.
+	> git pull
+
+Yandal listeleme
+	> git branch	
+	
+Yandal oluşturma
+	> git branch yandal2
+	
+Oluşturulan yandala geçip çalışma
+	> git checkout yandal2
+
+
+
 	
 
 
